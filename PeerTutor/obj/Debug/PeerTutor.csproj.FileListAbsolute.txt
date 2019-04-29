@@ -117,3 +117,7 @@ C:\Users\Erden\source\repos\PeerTutor\PeerTutor\obj\Debug\PeerTutor.Migrations.T
 C:\Users\Erden\source\repos\PeerTutor\PeerTutor\obj\Debug\PeerTutor.Migrations.ContextB.Tutors.resources
 C:\Users\Erden\source\repos\PeerTutor\PeerTutor\obj\Debug\PeerTutor.Migrations.ContextB.UpdateSeedTutors.resources
 C:\Users\Erden\source\repos\PeerTutor\PeerTutor\obj\Debug\PeerTutor.csprojAssemblyReference.cache
+C:\Users\Erden\source\repos\PeerTutor\PeerTutor\bin\DHTMLX.dll
+C:\Users\Erden\source\repos\PeerTutor\PeerTutor\bin\DHTMLX.pdb
+C:\Users\Erden\source\repos\PeerTutor\PeerTutor\bin\DHTMLX.xml
+C:\Users\Erden\source\repos\PeerTutor\PeerTutor\obj\Debug\PeerTutor.Migrations.ContextB.AddEvent.resources

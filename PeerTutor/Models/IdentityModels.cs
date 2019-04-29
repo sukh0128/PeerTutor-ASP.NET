@@ -56,6 +56,7 @@ namespace PeerTutor.Models
         
         public virtual DbSet<Course> Courses { get; set; }
         public virtual DbSet<Tutor> Tutors { get; set; }
+        public virtual DbSet<Event> Events { get; set; }
 
     }
 

@@ -18,6 +18,12 @@ namespace PeerTutor
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                name: "Scheduler",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "BasicScheduler", action = "Index", id = UrlParameter.Optional }
+            );
         }
     }
 }
