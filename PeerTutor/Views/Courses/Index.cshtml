@@ -1,0 +1,49 @@
+﻿@model IEnumerable<PeerTutor.Models.Course>
+
+@{
+    ViewBag.Title = "DashBoard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (Request.IsAuthenticated)
+{
+        <h2><center>Welcome to your Dashboard</center></h2>
+
+        @*<p>
+                @Html.ActionLink("Create New", "Create")
+            </p>*@
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Area)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Number)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Area)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Number)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.ActionLink("Get help!", "Index", "Tutors")
+                    @*@Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })*@
+                </td>
+            </tr>
+        }
+
+    </table>
+}
