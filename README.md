@@ -8,6 +8,6 @@ get tutoring help from peers using the subject topic and specific course name/nu
 <li>Secure individual login creations</li>
 <li>With multiple plug-in, add-on front-end partials such as Calendar scheduler "DHTMLX.Scheduler.NET.4.0.1"</li>
 <li>Uses Entity Framework(EF) and EF migrations to create the Database Update scripts, drops and adds automatically based off of the model
-changes and code changes.</li>
+    changes and code changes.</li>
 </body>
 
